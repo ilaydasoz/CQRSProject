@@ -1,0 +1,28 @@
+﻿<Properties StartupConfiguration="{06E5CDCD-4C0E-42E0-AB8B-07E836A9AE40}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="CQRSProject/Startup.cs">
+    <Files>
+      <File FileName="CQRSProject/Startup.cs" Line="36" Column="37" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="CQRSProject" expanded="True">
+            <Node name="CQRSProject" expanded="True">
+              <Node name="DAL" expanded="True">
+                <Node name="Entities" expanded="True" />
+              </Node>
+              <Node name="Startup.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.CQRSProject PreferredExecutionTarget="/System/Volumes/Preboot/Cryptexes/App/System/Applications/Safari.app" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
