@@ -46,3 +46,8 @@
 /Users/ilaydasozyilmaz/Projects/CQRSProject/CQRSProject/obj/Debug/net5.0/CQRSProject.pdb
 /Users/ilaydasozyilmaz/Projects/CQRSProject/CQRSProject/obj/Debug/net5.0/CQRSProject.genruntimeconfig.cache
 /Users/ilaydasozyilmaz/Projects/CQRSProject/CQRSProject/bin/Debug/net5.0/CQRSProject
+/Users/ilaydasozyilmaz/Projects/CQRSProject/CQRSProject/obj/Debug/net5.0/Razor/Views/Product/GetAccounterIndexByID.cshtml.g.cs
+/Users/ilaydasozyilmaz/Projects/CQRSProject/CQRSProject/obj/Debug/net5.0/Razor/Views/Product/GetHumanResourcesIndex.cshtml.g.cs
+/Users/ilaydasozyilmaz/Projects/CQRSProject/CQRSProject/obj/Debug/net5.0/Razor/Views/Product/Index.cshtml.g.cs
+/Users/ilaydasozyilmaz/Projects/CQRSProject/CQRSProject/obj/Debug/net5.0/Razor/Views/Product/StoragerIndex.cshtml.g.cs
+/Users/ilaydasozyilmaz/Projects/CQRSProject/CQRSProject/obj/Debug/net5.0/Razor/Views/Product/AddProduct.cshtml.g.cs

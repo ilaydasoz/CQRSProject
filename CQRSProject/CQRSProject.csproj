@@ -21,6 +21,18 @@
     <None Remove="CQRS\Results\ProductResults\" />
     <None Remove="CQRS\Handlers\" />
     <None Remove="CQRS\Handlers\ProductHandlers\" />
+    <None Remove="Views\Product\" />
+    <None Remove="CQRS\Commands\StudentCommands\" />
+    <None Remove="CQRS\Handlers\StudentHandlers\" />
+    <None Remove="Views\Student\" />
+    <None Remove="CQRS\Results\StudentResults\" />
+    <None Remove="CQRS\Queries\StudentQueries\" />
+    <None Remove="MediatR.Extensions.Microsoft.DependencyInjection" />
+    <None Remove="CQRS\Results\UniversityResults\" />
+    <None Remove="CQRS\Queries\UniversityQueries\" />
+    <None Remove="CQRS\Handlers\UniversityHandlers\" />
+    <None Remove="Views\University\" />
+    <None Remove="CQRS\Commands\UniversityCommands\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="DAL\" />
@@ -35,6 +47,17 @@
     <Folder Include="CQRS\Results\ProductResults\" />
     <Folder Include="CQRS\Handlers\" />
     <Folder Include="CQRS\Handlers\ProductHandlers\" />
+    <Folder Include="Views\Product\" />
+    <Folder Include="CQRS\Commands\StudentCommands\" />
+    <Folder Include="CQRS\Handlers\StudentHandlers\" />
+    <Folder Include="Views\Student\" />
+    <Folder Include="CQRS\Results\StudentResults\" />
+    <Folder Include="CQRS\Queries\StudentQueries\" />
+    <Folder Include="CQRS\Results\UniversityResults\" />
+    <Folder Include="CQRS\Queries\UniversityQueries\" />
+    <Folder Include="CQRS\Handlers\UniversityHandlers\" />
+    <Folder Include="Views\University\" />
+    <Folder Include="CQRS\Commands\UniversityCommands\" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="5.0.17" />
@@ -47,5 +70,6 @@
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
       <PrivateAssets>all</PrivateAssets>
     </PackageReference>
+    <PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="11.0.0" />
   </ItemGroup>
 </Project>

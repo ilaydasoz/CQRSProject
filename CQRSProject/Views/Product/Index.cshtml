@@ -1,0 +1,41 @@
+﻿@model List<GetProductAccounterQueryResult>
+@{
+    Layout = null;
+}
+
+<link href="~/lib/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />
+<div class="container">
+    <h2>Accounter Page</h2>
+    <br />
+    <table class="table table-bordered">
+        <tr>
+            <th>#</th>
+            <th>Product Name</th>
+            <th>Brand</th>
+            <th>Stock</th>
+            <th>Details HR</th>
+            <th>Details Accounting</th>
+            <th>Delete</th>
+            <th>Edit</th>
+
+        </tr>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.ProductID</td>
+                <td>@item.Name</td>
+                <td>@item.Brand</td>
+                <td>@item.Stock</td>
+                <td><a href="/Product/GetHumanResourcesIndex/@item.ProductID" class="btn btn-outline-dark">Details</a></td>
+                <td><a href="/Product/GetAccounterIndexByID/@item.ProductID" class="btn btn-outline-dark">Accounting</a></td>
+                <td><a href="" class="btn btn-outline-danger">Delete</a></td>
+                <td><a href="" class="btn btn-outline-success">Edit</a></td>
+            </tr>
+
+        }
+
+    </table>
+    <br />
+    <a href="" class="btn btn-outline-primary">New</a>
+
+</div>

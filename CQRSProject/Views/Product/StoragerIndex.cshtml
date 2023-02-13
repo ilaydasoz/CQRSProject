@@ -1,0 +1,40 @@
+﻿@model List<GetProductStoragerQueryResult>
+@{
+    Layout = null;
+}
+
+<link href="~/lib/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />
+<div class="container">
+    <h2>Storager Page</h2>
+    <br />
+    <table class="table table-bordered">
+        <tr>
+            <th>#</th>
+            <th>Product Name</th>
+            <th>Warehouse</th>
+
+            <th>Details</th>
+            <th>Delete</th>
+            <th>Edit</th>
+
+        </tr>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.ProductID</td>
+                <td>@item.Name</td>
+                <td>@item.Storage</td>
+
+                <td><a href="" class="btn btn-outline-dark">Details</a></td>
+                <td><a href="" class="btn btn-outline-danger">Delete</a></td>
+                <td><a href="" class="btn btn-outline-success">Edit</a></td>
+
+
+            </tr>
+
+        }
+
+    </table>
+    <a href="" class="btn btn-outline-primary">New</a>
+
+</div>

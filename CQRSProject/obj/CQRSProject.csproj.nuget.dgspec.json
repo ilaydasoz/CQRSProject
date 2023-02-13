@@ -14,7 +14,7 @@
         "outputPath": "/Users/ilaydasozyilmaz/Projects/CQRSProject/CQRSProject/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/ilaydasozyilmaz/.nuget/NuGet/NuGet.Config"
+          "/Users/ilaydasozyilmaz/.config/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
@@ -38,6 +38,10 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "dependencies": {
+            "MediatR.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[11.0.0, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[5.0.17, )"

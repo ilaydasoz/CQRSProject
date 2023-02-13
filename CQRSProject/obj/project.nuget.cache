@@ -1,10 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "wVe/Gua0iOHGGOWRNjoGsyhD+0ST7Oi3+hPqP/s4AEpH87Bafh3kd8qPfnmwJ8mrUKEhHZ88ti4iMKY2cjrJUQ==",
+  "dgSpecHash": "7OIruYrjcM9ByqWlmf98hHr6MIw/lKEk1YOSCyKO1SDREfGaUau5Mh6SpvmTPH4vSRkm3NdPCoa45IKloySbVw==",
   "success": true,
   "projectFilePath": "/Users/ilaydasozyilmaz/Projects/CQRSProject/CQRSProject/CQRSProject.csproj",
   "expectedPackageFiles": [
     "/Users/ilaydasozyilmaz/.nuget/packages/humanizer.core/2.8.26/humanizer.core.2.8.26.nupkg.sha512",
+    "/Users/ilaydasozyilmaz/.nuget/packages/mediatr/11.0.0/mediatr.11.0.0.nupkg.sha512",
+    "/Users/ilaydasozyilmaz/.nuget/packages/mediatr.contracts/1.0.1/mediatr.contracts.1.0.1.nupkg.sha512",
+    "/Users/ilaydasozyilmaz/.nuget/packages/mediatr.extensions.microsoft.dependencyinjection/11.0.0/mediatr.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",
     "/Users/ilaydasozyilmaz/.nuget/packages/microsoft.csharp/4.7.0/microsoft.csharp.4.7.0.nupkg.sha512",
     "/Users/ilaydasozyilmaz/.nuget/packages/microsoft.entityframeworkcore/5.0.17/microsoft.entityframeworkcore.5.0.17.nupkg.sha512",
     "/Users/ilaydasozyilmaz/.nuget/packages/microsoft.entityframeworkcore.abstractions/5.0.17/microsoft.entityframeworkcore.abstractions.5.0.17.nupkg.sha512",
@@ -16,7 +19,7 @@
     "/Users/ilaydasozyilmaz/.nuget/packages/microsoft.extensions.caching.memory/5.0.0/microsoft.extensions.caching.memory.5.0.0.nupkg.sha512",
     "/Users/ilaydasozyilmaz/.nuget/packages/microsoft.extensions.configuration.abstractions/5.0.0/microsoft.extensions.configuration.abstractions.5.0.0.nupkg.sha512",
     "/Users/ilaydasozyilmaz/.nuget/packages/microsoft.extensions.dependencyinjection/5.0.2/microsoft.extensions.dependencyinjection.5.0.2.nupkg.sha512",
-    "/Users/ilaydasozyilmaz/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/5.0.0/microsoft.extensions.dependencyinjection.abstractions.5.0.0.nupkg.sha512",
+    "/Users/ilaydasozyilmaz/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/6.0.0/microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
     "/Users/ilaydasozyilmaz/.nuget/packages/microsoft.extensions.logging/5.0.0/microsoft.extensions.logging.5.0.0.nupkg.sha512",
     "/Users/ilaydasozyilmaz/.nuget/packages/microsoft.extensions.logging.abstractions/5.0.0/microsoft.extensions.logging.abstractions.5.0.0.nupkg.sha512",
     "/Users/ilaydasozyilmaz/.nuget/packages/microsoft.extensions.options/5.0.0/microsoft.extensions.options.5.0.0.nupkg.sha512",

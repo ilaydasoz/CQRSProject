@@ -2,18 +2,25 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using CQRSProject.CQRS.Queries.UniversityQueries;
+using MediatR;
 using Microsoft.AspNetCore.Mvc;
-
-// For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
 namespace CQRSProject.Controllers
 {
     public class UniversityController : Controller
     {
-        // GET: /<controller>/
-        public IActionResult Index()
+        private readonly IMediator _mediator;
+
+        public UniversityController(IMediator mediator)
         {
-            return View();
+            _mediator = mediator;
+        }
+
+        public async Task<IActionResult> GetAllUniversities()
+        {
+            var values = await _mediator.Send(new GetAllUniversityQuery());
+            return View(values);
         }
     }
 }

@@ -10,7 +10,9 @@ namespace CQRSProject.DAL.Context
             => optionsBuilder.UseNpgsql("Host=localhost;Database=CQRSDb;Username=postgres;Password=postgres");
 
         public DbSet<Product> Products { get; set; }
-    }
+        public DbSet<Student> Students { get; set; }
+        public DbSet<Student> Universities { get; set; }
 
+    }
     
 }

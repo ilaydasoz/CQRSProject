@@ -3,7 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using CQRSProject.CQRS.Handlers.ProductHandlers;
+using CQRSProject.CQRS.Handlers.StudentHandlers;
 using CQRSProject.DAL.Context;
+using MediatR;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -25,8 +27,20 @@ namespace CQRSProject
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddMediatR(typeof(Startup));
+
             services.AddDbContext<ProductContext>();
-            services.AddScoped<GetProductByAccounterQueryHandler>();
+
+            services.AddScoped<GetProductAccounterQueryHandler>();
+            services.AddScoped<GetProductStoragerQueryHandler>();
+            services.AddScoped<GetProductHumanResourcesByIDQueryHandler>();
+            services.AddScoped<GetProductAccounterByIDQueryHandler>();
+            services.AddScoped<CreateStudentCommandHandler>();
+            services.AddScoped<GetAllStudentQueryHandler>();
+            services.AddScoped<RemoveStudentCommandHandler>();
+            services.AddScoped<GetStudentByIDQueryHandler>();
+            services.AddScoped<UpdateStudentCommandHandler>();
+
             services.AddControllersWithViews();
         }
 
